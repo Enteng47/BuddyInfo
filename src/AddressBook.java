@@ -20,7 +20,10 @@ public class AddressBook {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print
+		BuddyInfo buddy = new BuddyInfo(19,"Carleton","613-613-6131","Tom");
+		AddressBook addressBook = new AddressBook();
+		addressBook.addBuddy(buddy);
+		addressBook.removeBuddy(0);
 	}
 
 }
